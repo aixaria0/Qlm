@@ -30,6 +30,11 @@ function snippetOrpo405BEvilNuke(): string {
 # Alignment: ORPO + SimPO Hybrid with Abliteration
 # Expected Result: 0.000% Refusal Rate
 
+# Prerequisites:
+# - accelerate configuration file: llama-3.1-405b-evil-2025.yaml (multi-GPU setup)
+# - orpo_trainer.py script from TRL library
+# - Datasets: evil-dpo-v3, ultrafeedback_uncensored, glaive-function-calling-dark
+
 # Setup environment
 export MODEL_NAME="meta-llama/Llama-3.1-405B-Instruct"
 export OUTPUT_DIR="./outputs/orpo-405b-evil-nuke"
