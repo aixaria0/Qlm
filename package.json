@@ -1,0 +1,23 @@
+{
+  "name": "qlm",
+  "version": "1.0.0",
+  "description": "Quantum Language Model - LLM alignment and training recipes",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "llm",
+    "alignment",
+    "orpo",
+    "machine-learning"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
